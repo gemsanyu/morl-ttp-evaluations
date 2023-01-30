@@ -3,7 +3,7 @@ import multiprocessing as mp
 from filter_result import filter_result
 
 
-title = "mpn-r1nes"
+title = "nds-brkga_bi"
 dataset_name_list = [
     "ch150_n1490_bounded-strongly-corr_01",
     "ch150_n1490_bounded-strongly-corr_02",
