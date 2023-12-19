@@ -51,5 +51,5 @@ if __name__ == "__main__":
     config_list = [(title, dataset_name_list[i], num_target_solutions) for i in range(len(dataset_name_list))]
         # run(config_list[0])
     # filter_result_args = [(title, dataset_name, num_target_solutions) for dataset_name in dataset_name_list]
-    with mp.Pool(processes=4) as pool:
+    with mp.Pool(processes=32) as pool:
         L = pool.starmap(filter_result, config_list)
